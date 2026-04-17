@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Pijamas quirúrgicas de calidad para equipos médicos. Comodidad, higiene y diseño profesional." />
+  <title>Pijamas quirúrgicas | Equipo médico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="logo" href="#">Scrub<span class="logo__accent">Lab</span></a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto" class="nav__cta">Cotizar</a>
+      </nav>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="nav-mobile" class="nav-mobile" hidden></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">Equipo médico profesional</p>
+          <h1>Pijamas quirúrgicas pensadas para largas jornadas</h1>
+          <p class="lead">
+            Tejidos transpirables, corte ergonómico y acabados que cumplen con los estándares de higiene que tu equipo merece.
+          </p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">Solicitar información</a>
+            <a href="#catalogo" class="btn btn--ghost">Ver líneas</a>
+          </div>
+          <ul class="hero__stats" role="list">
+            <li><strong>88% 12%</strong> Poliester y elastano</li>
+            <li><strong>Tallas</strong> XS a 3XL</li>
+            <li><strong>Mayoreo</strong> para hospitales y clínicas</li>
+          </ul>
+        </div>
+        <figure class="hero__visual scrub-card">
+          <img
+            class="scrub-card__img"
+            src="images/Conjunto%20Caballero%20Novak%20Azul%20Cielo%201.png"
+            alt="Conjunto de pijama quirúrgica caballero Novak en azul cielo"
+            width="560"
+            height="700"
+            loading="eager"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section section--muted">
+      <div class="wrap">
+        <h2 class="section__title">Por qué elegirnos</h2>
+        <p class="section__intro">Lo esencial para quienes pasan el día en quirófano o consulta.</p>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">◇</span>
+            <h3>Confort prolongado</h3>
+            <p>Cintura ajustable y manga diseñada para no rozar al manipular instrumental.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">◎</span>
+            <h3>Higiene y durabilidad</h3>
+            <p>Colores sólidos que resisten lavados industriales sin perder tono ni forma.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">◈</span>
+            <h3>Imagen unificada</h3>
+            <p>Bordado de logo y pedidos por departamento para que todo el equipo luzca igual.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="section">
+      <div class="wrap">
+        <h2 class="section__title">Líneas disponibles</h2>
+        <p class="section__intro">Uniformes para cirugía, urgencias y áreas asépticas.</p>
+        <div class="catalog">
+          <div class="catalog__item reveal">
+            <span class="catalog__swatch" style="--swatch: #1e3a5f"></span>
+            <h3>Classic</h3>
+            <p>Top tipo V y pantalón con cordón. Ideal para rotación diaria.</p>
+          </div>
+          <div class="catalog__item reveal">
+            <span class="catalog__swatch" style="--swatch: #0f766e"></span>
+            <h3>Pro-Fit</h3>
+            <p>Corte slim, cuatro bolsillos y tejido stretch ligero.</p>
+          </div>
+          <div class="catalog__item reveal">
+            <span class="catalog__swatch" style="--swatch: #4c1d95"></span>
+            <h3>Signature</h3>
+            <p>Colores distintivos para identificación rápida por área.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta-band">
+      <div class="wrap cta-band__inner">
+        <div>
+          <h2>¿Listo para equipar a tu personal?</h2>
+          <p>Envíanos cantidad aproximada, tallas y si necesitas bordado. Te respondemos con cotización y tiempos de entrega.</p>
+        </div>
+        <a class="btn btn--light" href="mailto:cotizaciones@ejemplo.com">cotizaciones@ejemplo.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <p class="logo logo--small">Scrub<span class="logo__accent">Lab</span></p>
+      <p class="fineprint">© <span id="year"></span> ScrubLab. Pijamas quirúrgicas para equipos de salud.</p>
+    </div>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
